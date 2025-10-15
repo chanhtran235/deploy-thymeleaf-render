@@ -14,4 +14,4 @@ RUN chmod +x gradlew
 RUN ./gradlew build -x test
 
 # Chạy file jar (chỉnh lại tên đúng)
-CMD ["java", "-jar", "build/libs/demo_spring_thymeleaf-1.0-SNAPSHOT.war"]
+CMD ["java", "-jar", "build/libs/demo_depoye_spring_boot-0.0.1-SNAPSHOT.jar"]
